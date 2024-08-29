@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table tr {
+    @apply border border-gray-400
+}
+
+table thead th {
+    @apply px-2 py-1 lg:px-5 lg:py-2 text-[magenta] text-base lg:text-xl text-center
+}
+
+table tbody td {
+    @apply px-2 py-1 lg:px-5 lg:py-2 text-base lg:text-xl text-center
+}
